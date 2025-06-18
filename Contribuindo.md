@@ -82,7 +82,7 @@ Existem diversas formas de contribuir com o projeto:
 
 ## 📄 Licença
 
-Ao contribuir, você concorda que sua contribuição será licenciada sob a [Licença MIT](./License).
+Ao contribuir, você concorda que sua contribuição será licenciada sob a [Licença MIT](./LICENSE).
 
 ---
 
