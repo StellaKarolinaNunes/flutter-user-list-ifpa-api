@@ -230,7 +230,7 @@ Contribuições são bem-vindas!
 
 ## :page_facing_up: Licença
 
-Este projeto está sob a [Licença MIT](./License).  
+Este projeto está sob a [Licença MIT](./LICENSE).  
 Você pode usar, modificar e distribuir livremente, apenas mantenha referência ao repositório original.
 
 ---
