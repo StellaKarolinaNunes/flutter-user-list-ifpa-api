@@ -41,7 +41,7 @@ O desenvolvimento deste projeto visa exercitar práticas essenciais do desenvolv
 
 ## :rocket: Demonstração
 
-| ![](https://github.com/user-attachments/assets/b9a43a9d-e592-45ab-a769-655e10c42523) | ![](https://github.com/user-attachments/assets/8516a637-fb63-4faa-bb46-ae0125d75f9d) | ![](https://github.com/user-attachments/assets/803fce20-7c08-40c0-99db-3b4a8dece3b8) | ![](https://github.com/user-attachments/assets/3b7801bb-0954-474d-a5a5-1a7641f24d98) |
+| ![](https://github.com/user-attachments/assets/803fce20-7c08-40c0-99db-3b4a8dece3b8) | ![](https://github.com/user-attachments/assets/3b7801bb-0954-474d-a5a5-1a7641f24d98) | ![](https://github.com/user-attachments/assets/8516a637-fb63-4faa-bb46-ae0125d75f9d) | ![](https://github.com/user-attachments/assets/b9a43a9d-e592-45ab-a769-655e10c42523)  |
 |---|---|---|---|
 
 > **Nota:**  
