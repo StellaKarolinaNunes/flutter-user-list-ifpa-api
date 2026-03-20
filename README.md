@@ -1,6 +1,13 @@
-<h1 align="center">
-  flutter-user-list-ifpa-api
-</h1>
+   <h1 align="center">
+       flutter user list ifpa api
+    <br />
+    <br />
+    <a href="https://github.com/StellaKarolinaNunes/flutter-user-list-ifpa-api">
+     <img src="./assets/imagens/banner.png" alt="flutter user list ifpa api Banner " width="100%">
+    </a>
+  </h1>
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=flutter&message=framework&color=blue&style=for-the-badge&logo=flutter"/>
@@ -10,36 +17,39 @@
   <img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=green&style=for-the-badge"/>
 </p>
 
----
-
-# :star2: Sumário
-
-- [Introdução](#introdução)
-- [Demonstração](#demonstração)
-- [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Exemplos](#exemplos)
-- [FAQ / Perguntas Frequentes](#faq--perguntas-frequentes)
-- [Contribuição](#contribuição)
-- [Boas Práticas](#boas-práticas)
-- [Recursos & Links Adicionais](#recursos--links-adicionais)
-- [Licença](#licença)
-- [Equipe](#equipe)
+<br>
 
 ---
 
-## :books: Introdução
+##  Introdução
+**flutter user list ifpa api** é uma avaliação de Programação de Dispositivos Móveis propõe o desenvolvimento de um aplicativo utilizando o framework Flutter, com o objetivo de consolidar e aplicar os conhecimentos adquiridos durante a disciplina. O trabalho consiste na criação de um aplicativo de listagem e filtro dinâmico de usuários, consumindo dados de uma API externa. Neste contexto, o aplicativo deverá conectar-se ao endpoint API ALUNOS IFPA `restrita/privada`, processar e exibir a lista de usuários de forma clara e organizada, apresentando, pelo menos, o nome e a matrícula de cada usuário. Além disso, será implementada uma funcionalidade de filtro por nome, permitindo ao usuário buscar registros de forma dinâmica e eficiente, independente de letras maiúsculas ou minúsculas.  O desenvolvimento deste projeto visa exercitar práticas essenciais do desenvolvimento mobile moderno, como a integração com APIs REST, manipulação de listas e implementação de interfaces responsivas e intuitivas. A avaliação irá considerar critérios como a funcionalidade correta do aplicativo, a organização e clareza do código, e a qualidade da interface e experiência do usuário.
 
-A avaliação de Programação de Dispositivos Móveis propõe o desenvolvimento de um aplicativo utilizando o framework Flutter, com o objetivo de consolidar e aplicar os conhecimentos adquiridos durante a disciplina. O trabalho consiste na criação de um aplicativo de listagem e filtro dinâmico de usuários, consumindo dados de uma API externa.
+<br>
 
-Neste contexto, o aplicativo deverá conectar-se ao endpoint API ALUNOS IFPA `restrita/privada`, processar e exibir a lista de usuários de forma clara e organizada, apresentando, pelo menos, o nome e a matrícula de cada usuário. Além disso, será implementada uma funcionalidade de filtro por nome, permitindo ao usuário buscar registros de forma dinâmica e eficiente, independente de letras maiúsculas ou minúsculas.
+## Por que flutter user list ifpa api?
+O nome **flutter user list ifpa api** reflete a proposta de oferecer auxílio imediato e acessível na palma da mão. Em um contexto institucional, a agilidade no acesso a dados de usuários e alunos é fundamental. O aplicativo foi desenvolvido para simplificar essa consulta, transformando processos de busca que poderiam ser lentos em uma experiência fluida e intuitiva, unindo a mobilidade do Flutter com a eficiência da integração de dados em tempo real.
 
-O desenvolvimento deste projeto visa exercitar práticas essenciais do desenvolvimento mobile moderno, como a integração com APIs REST, manipulação de listas e implementação de interfaces responsivas e intuitivas. A avaliação irá considerar critérios como a funcionalidade correta do aplicativo, a organização e clareza do código, e a qualidade da interface e experiência do usuário.
+<br>
 
----
+## A Solução
+A solução consiste em um aplicativo mobile desenvolvido com **Flutter**, que estabelece uma comunicação segura com uma **API REST** para recuperar e exibir informações de alunos. Através de uma arquitetura baseada em **Providers** e **Services**, o sistema gerencia o estado da aplicação de forma eficiente, permitindo buscas instantâneas e atualizações em tempo real. A interface foi projetada com foco na usabilidade, oferecendo feedbacks visuais claros e uma navegação intuitiva para facilitar a consulta de dados acadêmicos.
 
-## :rocket: Demonstração
+<br>
+
+## Funcionalidades
+* **Listagem dinâmica de usuários** vindos de API RESTful.
+* **Busca e filtragem** (por nome, matrícula, sexo, status).
+* **Feedback visual**: loading, erros, vazio, atualização.
+* **Atualização manual** via botão.
+* **Estilo profissional**: scrollbar customizada, fontes e cores centralizadas.
+* **Componentização**: widgets reutilizáveis e organizados.
+* **Arquitetura limpa**: providers, models e services separados.
+* **UX amigável**: mensagens claras, animações, acessibilidade.
+
+<br>
+
+## Demostração
+
 
 | ![](https://github.com/user-attachments/assets/803fce20-7c08-40c0-99db-3b4a8dece3b8) | ![](https://github.com/user-attachments/assets/3b7801bb-0954-474d-a5a5-1a7641f24d98) | ![](https://github.com/user-attachments/assets/8516a637-fb63-4faa-bb46-ae0125d75f9d) | ![](https://github.com/user-attachments/assets/b9a43a9d-e592-45ab-a769-655e10c42523)  |
 |---|---|---|---|
@@ -52,72 +62,110 @@ O desenvolvimento deste projeto visa exercitar práticas essenciais do desenvolv
 
 ---
 
-## :zap: Funcionalidades
 
-- **Listagem dinâmica de usuários** vindos de API RESTful.
-- **Busca e filtragem** (por nome, matrícula, sexo, status).
-- **Feedback visual**: loading, erros, vazio, atualização.
-- **Atualização manual** via botão.
-- **Estilo profissional**: scrollbar customizada, fontes e cores centralizadas.
-- **Componentização**: widgets reutilizáveis e organizados.
-- **Arquitetura limpa**: providers, models e services separados.
-- **UX amigável**: mensagens claras, animações, acessibilidade.
 
----
+ ##  Estrutura de Pastas
 
-## :computer: Instalação
+A estrutura do projeto segue o padrão de organização por camadas, facilitando a manutenção e escalabilidade.
 
-### Pré-requisitos
+```text
+.
+├── assets
+│   └── imagens
+│       ├── banner.png
+│       ├── carregamento.png
+│       ├── home.png
+│       ├── pesquisa.png
+│       └── sem_busca.png
+├── lib
+│   ├── constants
+│   │   ├── app_colors.dart
+│   │   ├── app_fonts.dart
+│   │   └── app_icon.dart
+│   ├── main.dart
+│   ├── models
+│   │   └── usuario.dart
+│   ├── providers
+│   │   └── usuario_provider.dart
+│   ├── screens
+│   │   └── home_screen.dart
+│   ├── services
+│   │   └── api_service.dart
+│   └── widgets
+│       ├── custom_scrollbar.dart
+│       ├── error_widget.dart
+│       ├── loading_widget.dart
+│       ├── no_results_widget.dart
+│       ├── search_field.dart
+│       ├── usuario_card.dart
+│       └── usuario_list.dart
+├── analysis_options.yaml
+├── Contribuindo.md
+├── LICENSE
+├── pubspec.lock
+├── pubspec.yaml
+└── README.md
+```
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- [Git](https://git-scm.com/)
-- Dispositivo (Android/iOS) ou emulador/simulador ou navegador (web)
-- (Opcional) [VS Code](https://code.visualstudio.com/) + Extensão Flutter
+<br>
 
-### Passo a Passo
 
-1. **Clone o repositório:**
+ <br>
 
-    ```bash
-    git clone https://github.com/StellaKarolinaNunes/flutter-user-list-ifpa-api
-    cd flutter-user-list-ifpa-api
-    ```
+##  Instalação
 
-2. **Instale as dependências:**
+### Pré-requisitos para Rodar flutter user list ifpa api na sua maquina 
 
-    ```bash
-    flutter pub get
-    ```
+* [Flutter SDK](https://docs.flutter.dev/get-started/install)
+* [Git](https://git-scm.com/)
+* Dispositivo (Android/iOS) ou emulador/simulador ou navegador (web)
+* (Opcional) [VS Code](https://code.visualstudio.com/) + Extensão Flutter
 
-3. **Configure um dispositivo ou emulador:**
+<br>
 
-    - Certifique-se que esteja visível em `flutter devices`.
 
-4. **Execute o aplicativo:**
+###  Instalação Rápida
 
-    ```bash
-    flutter run
-    ```
+####  1. Clone o repositório
 
-5. **Para rodar no navegador (web):**
+```bash
+git clone https://github.com/StellaKarolinaNunes/flutter-user-list-ifpa-api.git
+```
 
-    ```bash
-    flutter run -d chrome
-    ```
+####  2. Navegue até o diretório do projeto
 
-> **Dica:**  
-> Use `flutter doctor` para garantir que todos os requisitos estejam corretos.
+```bash
+cd flutter-user-list-ifpa-api
+```
 
----
+####  3. Configure as variáveis de ambiente
 
-## :wrench: Uso
+Crie um arquivo `.env` a partir do modelo:
 
-- Na tela inicial, aguarde o carregamento automático dos usuários (API externa).
-- Use a barra de busca para filtrar por nome, matrícula, sexo ou status (ativo/inativo).
-- Clique no botão de atualizar para recarregar dados da API.
-- Visualize informações detalhadas: número, nome, matrícula, sexo e status de cada usuário.
-- Caso haja erro de conexão, utilize "Tentar novamente".
-- Se não houver resultados, sugestões serão exibidas.
+```bash
+cp .env.example .env
+```
+
+Edite o seu arquivo `.env` e adicione a URL da sua API:
+
+```env
+API_URL=https://SUA_API_URL_AQUI
+```
+
+####  4. Instale as dependências
+
+```bash
+flutter pub get
+```
+
+####  5. Execute o aplicativo
+
+```bash
+flutter run
+```
+
+### 5. Scripts Disponíveis
+
 
 ### Principais Comandos Flutter
 
@@ -127,122 +175,113 @@ flutter run           # Executa o app no dispositivo/emulador
 flutter build apk     # Gera APK para Android
 flutter build web     # Gera build para web
 flutter doctor        # Diagnóstico do ambiente Flutter
+flutter build appbundle # Gera pacote para publicação na Google Play.
 ```
 
----
+> **Saiba mais**: Acesse o site oficial da documentação Flutter para guias completos: [ documentação do flutter ](https://docs.flutter.dev/)
 
-## :bulb: Exemplos
+<br>
 
-**Exemplo 1:**  
-Digite "feminino" no campo de busca para filtrar apenas usuárias do sexo feminino.
+##  Roadmap
 
-**Exemplo 2:**  
-Limpe o campo de busca para ver todos os usuários novamente.
+- [x] Configuração inicial do projeto Flutter
+- [x] Estrutura de pastas básica
+- [ ] Integração com a API REST (Consumo de usuários)
+- [ ] Implementação do Gerenciamento de Estado (Bloc/Riverpod/Provider)
+- [ ] Tela de Listagem de Usuários com Scroll Infinito
+- [ ] Tela de Detalhes do Usuário
+- [ ] Funcionalidade de Busca e Filtros
+- [ ] Persistência de dados local (Cache/Offline)
+- [ ] Implementação de Testes Unitários e de Widget
+- [ ] Melhorias de UI/UX e Feedback Visual (Shimmer Effect)
+- [ ] Geração de Build para Produção (APK/App Bundle)
 
-**Exemplo 3:**  
-Clique no ícone de atualizar para forçar a busca de dados mais recentes da API.
+<br>
 
----
+ ##  Contribuição
+Contribuições são muito bem-vindas! Siga estes passos:
 
-## :question: FAQ / Perguntas Frequentes
+### Como Contribuir
+1. **Fork** este repositório como cotribuir completo,sem comentario e emogi profissional e atraente e copleto
+2. 
+3. **Clone** seu fork localmente
+4. **Crie** uma branch para sua feature: `git checkout -b feature/nova-funcionalidade`
+5. **Faça** suas alterações e commits
+6. **Teste** suas modificações
+7. **Abra** um Pull Request detalhado
 
-### 1. O que este projeto faz?
-Este é um aplicativo Flutter que lista usuários, exibindo informações como nome, matrícula, sexo e status (ativo/inativo). Os dados são buscados de uma API e exibidos em uma interface moderna, com busca e filtragem.
+<br>
 
-### 3. Preciso de alguma configuração especial?
-Não. Basta ter o Flutter instalado e atualizado.  
-A API utilizada é restrita, mas o projeto está pronto para ser conectado a qualquer API compatível.
+###  Diretrizes
 
-### 4. Como funciona a busca?
-A busca filtra os usuários conforme você digita no campo de pesquisa, considerando nome, matrícula, sexo e status (ativo/inativo).
+- Código limpo e bem comentado
+- Mensagens de commit claras e objetivas
+- Teste todas as funcionalidades
+- Mantenha a documentação atualizada
+- Siga os padrões de código existentes
 
-### 5. O que fazer se aparecer "Erro ao buscar usuários"?
-- Verifique sua conexão com a internet.
-- Tente novamente clicando no botão "Tentar novamente".
-- Se o problema persistir, confira se a API está online.
+<br>
 
-### 6. Como atualizar a lista de usuários?
-Clique no ícone de atualização (⟳) no topo da tela. Isso força uma nova busca na API, ignorando o cache.
+##  Licença
 
-### 7. Como adicionar novos usuários?
-Este app é apenas para listagem. Para adicionar usuários, é necessário implementar essa funcionalidade ou adicionar diretamente pela API, se permitido.
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-### 8. Como posso customizar as cores, fontes ou ícones?
-Edite os arquivos em `lib/constants/`:
-- **Cores:** `lib/constants/app_colors.dart`
-- **Fontes:** `lib/constants/app_fonts.dart`
-- **Ícones:** `lib/constants/app_icon.dart`
-  
-### 9. O projeto funciona offline?
-Não. O app depende da API para obter a lista de usuários. Sem internet, não é possível carregar ou atualizar a lista.
+``` bash
+MIT License - você pode usar, modificar e distribuir livremente,
+mantendo a referência ao repositório original.
+```
 
-### 10.Por que a API não está integrada diretamente ao código?
-Por motivos de proteção de dados sensíveis e segurança, a chave da API é restrita e pertence exclusivamente ao instituto. Por isso, a URL da API foi removida do código-fonte público.
+ <br>
 
-Caso queira testar o projeto, vá até o arquivo: `lib/services/api_service.dart`
-E substitua a linha:  `static const String _baseUrl = 'CHAVE_API';`
-Pela sua própria URL da API.
+ 
+ ##  Créditos
 
-### 11. Não encontrou sua dúvida aqui?
-Abra uma [issue](https://github.com/StellaKarolinaNunes/flutter-user-list-ifpa-api/issues/new) com sua dúvida, sugestão ou feedback. Ficarei feliz em ajudar! 💬✨
+O **flutter user list ifpa api** foi desenvolvido utilizando as melhores tecnologias e o apoio de uma comunidade incrível:
 
----
-
-## :handshake: Contribuição
-
-Contribuições são bem-vindas!
-
-1. [Leia o guia de contribuição](./Contribuindo.md) :purple_heart:
-2. Faça um fork deste repositório.
-3. Crie uma branch descritiva:  
-   `git checkout -b feature/seu-recurso`
-4. Faça commits claros e objetivos.
-5. Abra um Pull Request detalhado.
-
-**Dicas para contribuir:**
-
-- Use títulos de PR claros e descritivos.
-- Mantenha o padrão de código e documentação.
-- Sempre teste suas alterações.
-- Use Issues para comunicação e dúvidas.
-
----
-
-## :bookmark_tabs: Boas Práticas
-
-- Código limpo, comentado e modular.
-- Mensagens de commit claras.
-- Teste manual/local antes do PR.
-- Atualize sua branch antes de abrir um PR.
-- Siga o [Guia de Estilo Flutter](https://docs.flutter.dev/development/style-guide).
-
----
-
-## :link: Recursos & Links Adicionais
-
+###  Tecnologias e Frameworks
+- **Framework Principal:** [Flutter](https://flutter.dev/)
+- **Linguagem:** [Dart](https://dart.dev/)
+- **Gerenciamento de Estado:** [Provider](https://pub.dev/packages/provider)
+- **Interface e Efeitos:** [Glassmorphism](https://pub.dev/packages/glassmorphism) e [Flutter SVG](https://pub.dev/packages/flutter_svg)
+- **Tipografia:** [Google Fonts](https://pub.dev/packages/google_fonts) (Roboto)
+- **Integração:** [HTTP](https://pub.dev/packages/http) e [Flutter Dotenv](https://pub.dev/packages/flutter_dotenv)
 - [Documentação Oficial Flutter](https://docs.flutter.dev/)
 - [Provider (State Management)](https://pub.dev/packages/provider)
 - [Acessibilidade em Flutter](https://docs.flutter.dev/development/accessibility-and-localization/accessibility)
 - [Guia de Contribuição Open Source](https://opensource.guide/how-to-contribute/)
-- [API de Exemplo utilizada restrita/privada](restrita/privada/usuario) _(restrita/privada)_
 
----
+### Mentoria e Orientação
+- **Professor Orientador:** [Deriks Karlay Dias Costa](https://github.com/karlaycosta)
+- **Instituição:** IFPA (Instituto Federal do Pará)
 
-## :page_facing_up: Licença
+<br>
 
-Este projeto está sob a [Licença MIT](./LICENSE).  
-Você pode usar, modificar e distribuir livremente, apenas mantenha referência ao repositório original.
-
----
-
-## :trophy: Equipe
-
-**Desenvolvimento:**  
-- [Stella Karolina Nunes Peixoto](https://github.com/StellaKarolinaNunes)  
-- [João Gabriel Peres De Castro](https://github.com/Gab0701)  
-- [Jhonefer Vinicius Lima Da Silva](https://github.com/jhony996358)
-  
-- *Professor* [Deriks Karlay Dias Costa](https://github.com/karlaycosta)
+### Desenvolvimento Principal
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/StellaKarolinaNunes">
+        <img src="https://github.com/StellaKarolinaNunes.png" width="100px" alt="Stella Karolina Nunes Peixoto"/>
+        <br />
+        <sub><b>Stella Karolina Nunes Peixoto</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Gab0701">
+        <img src="https://github.com/Gab0701.png" width="100px" alt="João Gabriel Peres De Castro"/>
+        <br />
+        <sub><b>João Gabriel Peres De Castro</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jhony996358">
+        <img src="https://github.com/jhony996358.png" width="100px" alt="Jhonefer Vinicius Lima Da Silva"/>
+        <br />
+        <sub><b>Jhonefer Vinicius Lima Da Silva</b></sub>
+      </a>
+    </td>
+    
+<br>
 
 ---
 

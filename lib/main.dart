@@ -5,7 +5,11 @@ import 'constants/app_colors.dart';
 import 'constants/app_fonts.dart';
 import 'providers/usuario_provider.dart';
 
-void main() {
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   runApp(const UserListApp());
 }
 

@@ -1,8 +1,10 @@
 import 'package:http/http.dart' as http;
 import '../models/usuario.dart';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class ApiService {
-  static const String _baseUrl = 'CHAVE_API';
+  static final String _baseUrl = dotenv.get('API_URL', fallback: 'CHAVE_API');
 
   static Future<List<Usuario>> fetchUsers() async {
     final response = await http
